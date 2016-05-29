@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Welcome to Geeky Browser</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+          function GSearch() {
+    var x = document.getElementById("search").value;
+    window.location="https://www.google.co.in/search?client=ubuntu&channel=fs&q="+x+"&ie=utf-8&oe=utf-8&gfe_rd=cr&ei=NYW6VMjZKKzV8gfXh4CoDg";
+}       
+       </script>
+        <link rel="stylesheet" type="text/css" href="HOMEPAGE.css"/>
+    </head>
+    <body>
+      <div id="Cover123">
+   <div id="Wrapper123">
+       <div id="allCenter123">
+       <div id = "logo123">          
+           <img src="Logo1.png" width="600" height="150" />
+       </div>
+       <div id="logo123">
+          <input onkeypress="Javascript: if (event.keyCode==13) GSearch();" name="searchgoogle" id="search" style="margin-top: 40px;" type="text" placeholder="Google Search">
+       </div>
+       <div id="bookmarks">
+      <table id="Recent" width="700px" cellspacing="30px">
+      	<tr id="Box">
+            <td id="b1"><img src="FbIcon.png" width="150" height="150"/></td>
+            <td id="b2"><img src="DBIcon.png" width="100" height="100"/></td>
+            <td id="b3"><img src="YtIcon.png" width="100" height="100"/></td>
+            <td id="b4"><img src="TwIcon.png" width="100" height="100"/></td>
+        </tr>
+        <tr id="Box1">
+        	<th>Facebook</th>
+        	<th>Drop Box</th>
+        	<th>Youtube</th>
+        	<th>Twitter</th>
+        </tr>
+      </table>
+   </div>
+       </div>
+ </div>
+</body>  
+    
+</html>

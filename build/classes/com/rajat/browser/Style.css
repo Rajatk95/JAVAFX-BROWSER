@@ -1,0 +1,30 @@
+.browser{
+   -fx-text-fill: white;
+}
+.toolbarMainStyle{
+     
+    // -fx-shadow-highlight-color: transparent;
+    -fx-spacing: 5;
+    -fx-padding: 10 8 10 8;   
+    -fx-background-color: #f2f1f0;   
+} 
+.Tab{
+    -fx-border-radius: 75 55 0 0;
+}
+
+.toolbarNavStyle{
+    -fx-background-color: #d43333;
+    
+}
+.closehistorystyle{
+    -fx-background-color: transparent;
+}
+
+.button{
+    -fx-border-style: none;
+    -fx-background-color: transparent;
+    -fx-padding: 5px;
+}
+.button:hover{
+    -fx-background-color:#b4b4b4;
+}
