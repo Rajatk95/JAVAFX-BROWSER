@@ -70,7 +70,7 @@ class Browser extends Region{
             final  ProgressBar   progress   = new ProgressBar();
                    WebView       browser    = new WebView();
             final  WebEngine     webEngine  = browser.getEngine();
-    private        String        DEFAULT_URL= "http://www.google.com";
+    private        String        DEFAULT_URL= "http://www.youtube.com";
                    String        HOMEPAGE   = "http://www.google.com";
                    int           width      = Toolkit.getDefaultToolkit().getScreenSize().width;
             final  TextField     urlField   = new TextField(DEFAULT_URL);
